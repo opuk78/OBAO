@@ -1,5 +1,6 @@
 import { Separator } from "@/components/ui/separator"
 import { useTranslations } from "next-intl"
+import CookieConsentBanner from "../../../../components/common/CookieConsent"
 import AboutUsComponent from "../_components/AboutUs"
 import CarouselComponent from "../_components/Carousel"
 import HeroComponent from "../_components/Hero"
@@ -7,6 +8,7 @@ import OurMenuComponent from "../_components/OurMenu"
 import OurServices from "../_components/OurServices"
 import RestaurantsSection from "../_components/Restaurants"
 import CateringForm from "../catering/_components/CateringForm"
+
 const Home = () => {
   const t = useTranslations("catering")
   return (
@@ -50,6 +52,7 @@ const Home = () => {
           <CateringForm />
         </div>
       </div>
+      <CookieConsentBanner />
     </div>
   )
 }

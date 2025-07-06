@@ -35,7 +35,10 @@
     "LeeuwOpeningHoursText2": "Tuesday to Thursday: 12:00PM - 15:00PM and 18:00PM - 22:00PM",
     "LeeuwOpeningHoursText3": "Friday: 12:00PM -15:00PM and 18:00PM - 22:30PM",
     "LeeuwOpeningHoursText4": "Saturday: 14:00PM - 22:30PM",
-    "LeeuwOpeningHoursText5": "Sunday: 14:00PM - 22:00PM"
+    "LeeuwOpeningHoursText5": "Sunday: 14:00PM - 22:00PM",
+    "TermsAndConditions": "Terms and Conditions",
+    "CookieConsentText": "This website uses cookies to enhance your experience. By using our website, you consent to the use of cookies.",
+    "YouCanReadMoreInOur": "You can read more in our"
   },
   "foodMenu": {
     "Menu": "Menu",
@@ -117,7 +120,6 @@
     "SuccessMessage": "Thank you for reservation. We are happy to welcome you at O’BAO.",
     "ConfirmationMessage": "You will receive a confirmation of your reservation by email.",
     "YourContactDetails": "Your contact details",
-
     "FirstName": "First name",
     "EnterFirstName": "Enter first name",
     "LastName": "Last name",
@@ -128,13 +130,11 @@
     "EnterPhoneNumber": "Enter phone number",
     "YourMessage": "Your message",
     "DoYouHaveAnyRemarks": "Do you have any remarks?",
-
     "FirstNameRequired": "First name is required",
     "LastNameRequired": "Last name is required",
     "EmailRequired": "Email is required",
     "PhoneNumberRequired": "Phone number is required",
     "MessageRequired": "Message is required",
-
     "YourReservationIsFor": "Your reservation is for ",
     "People": "people",
     "At": "at"

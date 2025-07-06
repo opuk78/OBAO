@@ -251,7 +251,7 @@ const ReservationForm = () => {
                             const formatted = format(date, "yyyy-MM-dd")
                             setDate(formatted)
                             methods.setValue("date", formatted)
-                            setIsPopoverOpen(false) 
+                            setIsPopoverOpen(false)
                           }
                         }}
                         initialFocus

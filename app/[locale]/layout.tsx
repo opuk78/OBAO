@@ -68,7 +68,6 @@ export default async function RootLayout({
   const messages = await getMessages()
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID
 
-
   if (!routing.locales.includes(locale as any)) {
     NotFound()
   }

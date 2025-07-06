@@ -38,7 +38,10 @@
     "LeeuwOpeningHoursText2": "Mardi au jeudi : 12h00 - 15h00 et 18h00 - 22h00",
     "LeeuwOpeningHoursText3": "Vendredi : 12h00 - 15h00 et 18h00 - 22h30",
     "LeeuwOpeningHoursText4": "Samedi : 14h00 - 22h30",
-    "LeeuwOpeningHoursText5": "Dimanche : 14h00 - 22h00"
+    "LeeuwOpeningHoursText5": "Dimanche : 14h00 - 22h00",
+    "TermsAndConditions": "Conditions générales",
+    "CookieConsentText": "Veuillez lire attentivement nos conditions générales avant de passer une commande ou de réserver une table. En utilisant notre site web, vous acceptez nos conditions générales.",
+    "YouCanReadMoreInOur": "Vous pouvez en savoir plus dans nos"
   },
   "foodMenu": {
     "Menu": "Menu",

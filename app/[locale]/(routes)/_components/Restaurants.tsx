@@ -90,9 +90,7 @@ const RestaurantsSection = () => {
           <div className="">
             <h3 className="text-lg mb-1">{t("Contact")}</h3>
             <p className="text-sm mb-1">
-              <a
-                href="mailto:events@obao-catering.be"
-              >
+              <a href="mailto:events@obao-catering.be">
                 events@obao-catering.be
               </a>
             </p>
@@ -141,7 +139,9 @@ const RestaurantsSection = () => {
           <div className="">
             <h3 className="text-lg mb-1">{t("Contact")}</h3>
             <p className="text-sm mb-1">
-              <a href="mailto:events@obao-catering.be">events@obao-catering.be</a>
+              <a href="mailto:events@obao-catering.be">
+                events@obao-catering.be
+              </a>
             </p>
             <p className="text-sm">
               {t("ContactNumber")}:

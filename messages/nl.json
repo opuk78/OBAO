@@ -15,14 +15,12 @@
     "Workshops": "Workshops",
     "WorkshopsText": "Onze gerenommeerde chef Yoko, een Japanse expert in matcha-ceremonies en het maken van sushi, biedt boeiende workshops die deze traditionele kunsten verkennen. Deelnemers leren de fijne kneepjes van het rollen van sushi en de culturele betekenis van matcha-bereiding. Deze workshops bieden een hands-on kans om jezelf onder te dompelen in Japanse culinaire tradities.",
     "OurMenu": "Ons Menu",
-
     "OurMenuTextDiscover": "Ontdek de",
     "OurMenuTextFlavors": " smaken van Japanse en Chinees geïnspireerde fusiongerechten. Klik hieronder om ons menu te bekijken en jouw nieuwe favoriete gerecht te vinden!",
     "OurMenuAuthentic": "authentiek",
     "OurMenuTraditional": "traditioneel",
     "OurMenuExquisite": "exquise",
     "OurMenuDelightful": "lekker",
-
     "ViewOurMenu": "Bekijk Ons Menu",
     "Address": "ADRES",
     "OpeningHours": "OPENINGSUREN",
@@ -37,7 +35,10 @@
     "LeeuwOpeningHoursText2": "Dinsdag tot donderdag: 12:00 - 15:00 en 18:00 - 22:00",
     "LeeuwOpeningHoursText3": "Vrijdag: 12:00 - 15:00 en 18:00 - 22:30",
     "LeeuwOpeningHoursText4": "Zaterdag: 14:00 - 22:30",
-    "LeeuwOpeningHoursText5": "Zondag: 14:00 - 22:00"
+    "LeeuwOpeningHoursText5": "Zondag: 14:00 - 22:00",
+    "TermsAndConditions": "Algemene Voorwaarden",
+    "CookieConsentText": "Door gebruik te maken van onze website en diensten, ga je akkoord met onze algemene voorwaarden.",
+    "YouCanReadMoreInOur": "U kunt meer lezen in onze"
   },
   "foodMenu": {
     "Menu": "Menu",
