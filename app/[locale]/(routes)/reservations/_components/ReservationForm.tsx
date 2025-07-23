@@ -153,10 +153,10 @@ const ReservationForm = () => {
       </h3>
 
       <div className="flex flex-col gap-4 lg:min-w-[350px]">
-        <FormProvider {...methods}>
+        {/* <FormProvider {...methods}>
           <form onSubmit={methods.handleSubmit(onSubmit)} className="space-y-4">
             <div className="flex flex-col space-y-7   my-6  w-full">
-              {/* adult */}
+              adult
 
               <div className="flex flex-col gap-1">
                 <div className="flex items-center justify-between gap-2">
@@ -187,7 +187,6 @@ const ReservationForm = () => {
                 <Separator />
               </div>
 
-              {/* child */}
               <div className="flex flex-col gap-1">
                 <div className="flex items-center justify-between gap-2">
                   <span>
@@ -218,7 +217,6 @@ const ReservationForm = () => {
                 <Separator />
               </div>
 
-              {/* date */}
               <div className="flex flex-col gap-1">
                 <div className="flex flex-col items-start space-y-2">
                   <Popover open={isPopoverOpen} onOpenChange={setIsPopoverOpen}>
@@ -263,7 +261,6 @@ const ReservationForm = () => {
                 <Separator />
               </div>
 
-              {/* time */}
               <div className="flex flex-col gap-1">
                 <div className="flex items-center justify-between gap-2">
                   <Controller
@@ -342,7 +339,15 @@ const ReservationForm = () => {
               time={selectedTime}
             />
           </form>
-        </FormProvider>
+        </FormProvider> */}
+
+        <Image
+          src="/little-break.jpg"
+          alt="Little Break"
+          width={500}
+          height={300}
+          className="object-cover mt-4"
+        />
       </div>
     </div>
   )
