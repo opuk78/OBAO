@@ -153,7 +153,7 @@ const ReservationForm = () => {
       </h3>
 
       <div className="flex flex-col gap-4 lg:min-w-[350px]">
-        {/* <FormProvider {...methods}>
+        <FormProvider {...methods}>
           <form onSubmit={methods.handleSubmit(onSubmit)} className="space-y-4">
             <div className="flex flex-col space-y-7   my-6  w-full">
               adult
@@ -339,15 +339,15 @@ const ReservationForm = () => {
               time={selectedTime}
             />
           </form>
-        </FormProvider> */}
+        </FormProvider>
 
-        <Image
+        {/* <Image
           src="/little-break.jpg"
           alt="Little Break"
           width={500}
           height={300}
           className="object-cover mt-4"
-        />
+        /> */}
       </div>
     </div>
   )
