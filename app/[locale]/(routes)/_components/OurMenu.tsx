@@ -72,10 +72,7 @@ const OurMenuComponent = () => {
             variant="outline"
             className="bg-transparent px-7 lg:px-4 text-lg md:text-sm border-[1px] border-[#D2B48C] text-[#D2B48C] rounded-none hover:bg-[#D2B48C] hover:text-black"
             onClick={() =>
-              window.open(
-                "https://static1.squarespace.com/static/673227ba8e0761016b822fac/t/67a389f7b7a72a4a09312840/1738770940253/Schuman_A4_menu_print_3mm_bleed.pdf",
-                "_blank",
-              )
+              window.open("/schuman_menu.pdf", "_blank")
             }
           >
             {t("ViewOurMenu")}
