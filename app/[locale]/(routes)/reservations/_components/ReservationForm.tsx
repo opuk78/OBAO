@@ -249,6 +249,8 @@ const ReservationForm = () => {
                             const formatted = format(date, "yyyy-MM-dd")
                             setDate(formatted)
                             methods.setValue("date", formatted)
+                            setSelectedTime("")
+                            methods.setValue("time", "")
                             setIsPopoverOpen(false)
                           }
                         }}
@@ -290,15 +292,21 @@ const ReservationForm = () => {
                                 const isReserved = reservations?.data?.some(
                                   (row) => {
                                     const rawDate = row[7]
-                                    const parsedRowDate = format(
-                                      parse(rawDate, "M/d/yyyy", new Date()),
-                                      "yyyy-MM-dd",
-                                    )
+                                    if (!rawDate) return false
+                                    try {
+                                      const parsedRowDate = format(
+                                        parse(rawDate, "M/d/yyyy", new Date()),
+                                        "yyyy-MM-dd",
+                                      )
 
-                                    return (
-                                      parsedRowDate === formattedSelectedDate &&
-                                      row[8] === time
-                                    )
+                                      return (
+                                        parsedRowDate === formattedSelectedDate &&
+                                        row[8] === time
+                                      )
+                                    } catch {
+                                      console.warn("Could not parse date:", rawDate)
+                                      return false
+                                    }
                                   },
                                 )
 
