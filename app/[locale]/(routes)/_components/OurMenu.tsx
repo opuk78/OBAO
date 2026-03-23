@@ -71,9 +71,7 @@ const OurMenuComponent = () => {
             size="sm"
             variant="outline"
             className="bg-transparent px-7 lg:px-4 text-lg md:text-sm border-[1px] border-[#D2B48C] text-[#D2B48C] rounded-none hover:bg-[#D2B48C] hover:text-black"
-            onClick={() =>
-              window.open("/schuman_menu.pdf", "_blank")
-            }
+            onClick={() => window.open("/schuman_menu.pdf", "_blank")}
           >
             {t("ViewOurMenu")}
           </Button>

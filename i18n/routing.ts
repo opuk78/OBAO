@@ -4,11 +4,6 @@ export const routing = defineRouting({
   locales: ["en", "nl", "fr"],
 
   pathnames: {
-    "/reservations": {
-      en: "/reservations",
-      nl: "/reservering",
-      fr: "/reservation",
-    },
     "/about-us": {
       en: "/about-us",
       nl: "/over-ons",

@@ -5,7 +5,7 @@ import { routing } from "@/i18n/routing"
 import { GoogleTagManager } from "@next/third-parties/google"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages } from "next-intl/server"
-import ClientProvider from "./ClientProvider"
+import Script from "next/script"
 import NotFound from "./not-found"
 
 interface RootLayoutProps {
@@ -83,13 +83,17 @@ export default async function RootLayout({
         ${avenirBlack.variable} 
         antialiased`}
       >
-        <ClientProvider>
-          <NextIntlClientProvider messages={messages}>
-            {gtmId && <GoogleTagManager gtmId={gtmId} />}
-            {children}
-            <Toaster />
-          </NextIntlClientProvider>
-        </ClientProvider>
+        <NextIntlClientProvider messages={messages}>
+          {gtmId && <GoogleTagManager gtmId={gtmId} />}
+          {children}
+          <Toaster />
+          <div className="zc-widget-config" data-restaurant="384398" />
+          <Script
+            src="https://sdk.zenchef.com/v1/sdk.min.js"
+            strategy="lazyOnload"
+            id="zenchef-sdk"
+          />
+        </NextIntlClientProvider>
       </body>
     </html>
   )
