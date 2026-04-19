@@ -96,8 +96,8 @@ const RestaurantsSection = () => {
             </p>
             <p className="text-sm">
               {t("ContactNumber")}:
-              <a href="tel:+32470467557" className="underline ml-1">
-                0470 46 75 57
+              <a href="tel:+32470583150" className="underline ml-1">
+                0470 58 31 50
               </a>
             </p>
           </div>
